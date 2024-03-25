@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(White\ Inked\ Floral\ Metallic\ Wallpaper\ R6233\ -\ Base.jpg);
+}
+
+header {
+    background-color: #553311;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.chocolate-img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #553311;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #744422;
+}
+
+footer {
+    background-color: #553311;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+ul.facts-list {
+    list-style-type: none;
+    padding-left: 0;
+}
